@@ -1,0 +1,23 @@
+ALGORITHM count
+VAR
+    char, word, vowel : INTEGER:=0;
+    sentence : STRING;
+BEGIN
+    READ(char)
+    READ(word)
+    READ(vowel)
+
+    FOR each character in sentence 
+        IF(s[i]ischar)THEN
+            char := char+1;
+        END_IF
+
+        ELSE_IF(s[i] = " ")THEN
+            word := word+1;
+        END_IF
+
+        ELSE_IF(s[i] in [i, a, u, e, o, y])THEN
+            vowel := vowel+1;
+        END_IF
+    
+END
